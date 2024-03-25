@@ -56,4 +56,42 @@ form {
 .btn:active {
   box-shadow: none;
   top: 6px; 
-} 
+}
+
+.fa-solid {
+  font-size: 2em;
+}
+
+.light-theme {
+  body {
+    background-color: #e5e5e5 !important;
+    color: #000 !important;
+  }
+  .btn {
+    background-color: #fff;
+    box-shadow: 0 2px #ddd;
+  }
+  .h1 {
+    color: #676264;
+  }
+  #toggleThemeButton {
+    color: #e5e5e5;
+    background-color: #676264;
+  }
+  .container {
+    background-color: #e5e5e5;
+    color: #000;
+  }
+  .btn:hover {
+    box-shadow: 0 4px #ddd;
+  }
+  img {
+    filter: brightness(1.2); /* Aumentar el brillo para el tema claro */
+  }
+  a {
+    color: #000;
+  }
+  .fa-moon {
+    color: #fff;
+  }
+}
