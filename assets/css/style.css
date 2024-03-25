@@ -56,4 +56,7 @@ form {
 .btn:active {
   box-shadow: none;
   top: 6px; 
-} 
+}
+.carousel-item {
+  height: 450px;
+}
